@@ -10,13 +10,20 @@
 </head>
 
 <body>
-    <div id="chat-container">
-        <div id="chat-display"></div>
-        <div id="user-input-container">
-            <input type="text" id="user-input" placeholder="You:">
-            <button onclick="askQuestion()">Ask</button>
+    <div class="big">
+        <div>
+            <h1>NIT Kurukshetra's Chat-Bot</h1>
+
+        </div>
+        <div id="chat-container">
+            <div id="chat-display"></div>
+            <div id="user-input-container">
+                <input type="text" id="user-input" placeholder="Feel free to ask a question...">
+                <button onclick="askQuestion()">Ask</button>
+            </div>
         </div>
     </div>
+
 
     <script>
         function askQuestion() {
@@ -26,7 +33,7 @@
                 return;
             }
 
-            document.getElementById("chat-display").innerHTML += "<p>You: " + userInput + "</p>";
+            document.getElementById("chat-display").innerHTML += "<div class='user-message'>You: " + userInput + "</div>";
 
             fetch("/ask", {
                 method: "POST",
@@ -37,7 +44,7 @@
             })
                 .then(response => response.json())
                 .then(data => {
-                    document.getElementById("chat-display").innerHTML += "<p>Bot: " + data.response + "</p>";
+                    document.getElementById("chat-display").innerHTML += "<div class='bot-message'>Bot: " + data.response + "</div>";
                 });
 
             document.getElementById("user-input").value = "";
