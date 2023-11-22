@@ -1,0 +1,26 @@
+/* static/style.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#chat-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+#chat-display {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#user-input-container {
+  display: flex;
+}
+
+#user-input {
+  flex: 1;
+  margin-right: 10px;
+}
