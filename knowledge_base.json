@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "Tell me about NIT Kurukshetra.",
-      "answer": "It is one of the top NITs in India."
+      "answer": "The National Institute of Technology Kurukshetra (NIT Kurukshetra) is a premier technical institution located in the state of Haryana, India. Established in 1963, it is one of the 31 National Institutes of Technology in the country. NIT Kurukshetra is known for its commitment to excellence in engineering and technology education, offering undergraduate, postgraduate, and doctoral programs in various disciplines."
     },
     {
       "question": "What are the popular courses offered at NIT Kurukshetra?",
@@ -89,20 +89,80 @@
       "answer": "NIT Kurukshetra has a variety of cultural clubs and events, including dance, music, drama, and literary clubs. These clubs organize regular events and performances, adding vibrancy to the cultural scene on campus."
     },
     {
-      "question": "hii",
-      "answer": "hii how may i help you today"
+      "question": "Hii",
+      "answer": "Hey There! How may I help you today?"
     },
     {
       "question": "hello there",
-      "answer": "hii again"
+      "answer": "Hi again! How was your day?"
     },
     {
       "question": "whats up",
-      "answer": "hello there"
+      "answer": "Nothing. Just helping people with their college life."
     },
     {
-      "question": "heyy hii",
-      "answer": "how may i help you today"
+      "question": "Where/how is the library of college?",
+      "answer": "The library of NIT Kurukshetra is located right behind the electrical department beside the girls hostel. The library has a wide collection of books, journals, and other resources. The students have access to the library throughout the night as well. "
+    },
+    {
+      "question": "Where/How is the sports complex of college?",
+      "answer": "The sports complex of NIT Kurukshetra is located on the campus, right beside the administrative building. The sports complex has a swimming pool, tennis courts, basketball courts, cricket field, volleyball and kabaddi field as well along with a gymnasium which has all the essential and latest equipment. "
+    },
+    {
+      "question": "How are the hostel facilities in college",
+      "answer": "The hostel facilities at NIT Kurukshetra are good. The hostels are clean and well-maintained. The students have access to a variety of amenities, including a mess, a library, and a common room."
+    },
+    {
+      "question": "History of NIT Kurukshetra?",
+      "answer": "NIT Kurukshetra was established in 1963 as the Regional Institute of Technology, Kurukshetra. It was later upgraded to a National Institute of Technology in 2002."
+    },
+    {
+      "question": "Best way to reach NIT Kurukshetra from Airport?",
+      "answer": "Nearest Airport to NIT Kurukshetra is Chandigarh (Shaheed Bhagat Singh International Airport, Chandigarh) which is about 120 kms from the campus. Connectivity from Chandigargh is very accessible with trains and buses plying in nearly every 30-40 minutes."
+    },
+    {
+      "question": "Different fest/activities in college throughout the year.",
+      "answer": "Confluence is the annual cultural festival of NIT Kurukshetra, India. It is one of the largest and most popular cultural festivals in North India. The festival is held in February every year and attracts students from all over the country. Confluence is a four-day event that features a variety of competitions, performances, and workshops. The competitions include singing, dancing, drama, and fashion design. The performances include music, dance, and theater. The workshops include photography, videography, and creative writing. Techspardha is the annual technical festival of NIT Kurukshetra, India. It is one of the largest and most popular technical festivals in North India. The festival is held in March every year and attracts students from all over the country. Techspardha is a four-day event that features a variety of competitions, workshops, and seminars. The competitions include programming, robotics, and design. The workshops include web development, mobile app development, and artificial intelligence. The seminars feature industry experts who speak on a variety of topics related to technology."
+    },
+    {
+      "question": "Laboratory condition in NIT Kurukshetra",
+      "answer": "The academic buildings are spacious and have well-equipped classrooms, laboratories, and lecture halls. The hostels are clean and comfortable, and they provide a variety of amenities to the students. The laboratories are well-equipped with modern equipment, and they provide students with the opportunity to conduct hands-on research."
+    },
+    {
+      "question": "Are Canteen/Eatries available inside hostels?",
+      "answer": "Certain Hostels have canteen near them. H1,H2,H3,H4,H4,H5,H6 have Walk in whereas H7,H8,H9,H10 and H11 have H9 canteem amd maggie hotspot."
+    },
+    {
+      "question": "What is Girls in-timing?",
+      "answer": "The girls in timing in hostels is 8:30 pm because of disciplinary reasons in NIT Kurukshetra. The campus has all levels of security for all it's students."
+    },
+    {
+      "question": "Is there any form of ragging?",
+      "answer": "Ragging is strictly prohibited on campus. Any students found to be involved in ragging are subject to severe disciplinary action."
+    },
+    {
+      "question": "How far are the hostels from the academic building/lecture halls?",
+      "answer": "The hostels are located within the campus, close to the academic buildings and lecture halls. All the lecture halls are at walking distance but students may even choose to ride bicycles and park them near the lecture halls."
+    },
+    {
+      "question": "Are there stationary shops inside the college campus?",
+      "answer": "Yes, there is an entire shop dedicated for stationary in the market which is situated right beside the administrative building. You can find all sorts of stationary here."
+    },
+    {
+      "question": "Are day scholars allowed in the college or is it mandatory to stay in hostels?",
+      "answer": "Day scholars are allowed in the college. However, it is mandatory for first-year students to stay in hostels."
+    },
+    {
+      "question": "Does the college have the provision of branch change after 1st year?",
+      "answer": "No, Currently as on Nov 2023, the institute does not offer branch change after first year."
+    },
+    {
+      "question": "What are the branches offered in the college?",
+      "answer": "There are various branches in Btech - Mechanical, Electrical, Civil, Computer Science, Information technology, IOT, Electronics and Communication. "
+    },
+    {
+      "question": "How’s the food quality in mess?",
+      "answer": "The quality of food in the mess of NIT Kurukshetra is generally good, but it can vary depending on the day and the specific dish. The mess serves a variety of vegetarian dishes, and the food is typically fresh and nutritious."
     }
   ]
 }

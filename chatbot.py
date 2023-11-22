@@ -28,6 +28,10 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
             return q["answer"]
 
 
+knowledge_base = load_knowledge_base("knowledge_base.json")
+last_question = ""  # Variable to store the last question for teaching
+
+
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -35,7 +39,7 @@ def home():
 
 @app.route("/ask", methods=["POST"])
 def ask():
-    knowledge_base = load_knowledge_base("knowledge_base.json")
+    global last_question
     user_input = request.form.get("user_input")
 
     if user_input.lower() == "quit":
@@ -47,9 +51,27 @@ def ask():
 
     if best_match:
         answer = get_answer_for_question(best_match, knowledge_base)
+        last_question = user_input  # Update last question for teaching
         return jsonify({"response": answer})
     else:
         return jsonify({"response": "I don't know the answer. Can you teach me?"})
+
+
+@app.route("/teach", methods=["POST"])
+def teach():
+    global last_question
+    new_answer = request.form.get("new_answer")
+
+    if new_answer.lower() != "skip":
+        knowledge_base["questions"].append(
+            {"question": last_question, "answer": new_answer}
+        )
+        save_knowledge_base("knowledge_base.json", knowledge_base)
+        response = "Thank you! I learned a new response."
+    else:
+        response = "Skipped teaching the bot."
+
+    return jsonify({"response": response})
 
 
 if __name__ == "__main__":

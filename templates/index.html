@@ -45,9 +45,52 @@
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById("chat-display").innerHTML += "<div class='bot-message'>Bot: " + data.response + "</div>";
+
+                    // Check if the bot learned a new response
+                    if (data.response === "Thank you! I learned a new response.") {
+                        document.getElementById("chat-display").innerHTML += "<div class='bot-message learned-message'>Bot: " + data.response + "</div>";
+                    }
+
+                    // If the bot doesn't know the answer, open the teach modal
+                    if (data.response === "I don't know the answer. Can you teach me?") {
+                        openTeachModal();
+                    }
                 });
 
             document.getElementById("user-input").value = "";
+        }
+
+        function openTeachModal() {
+            document.getElementById("teach-modal").style.display = "block";
+        }
+
+        function closeTeachModal() {
+            document.getElementById("teach-modal").style.display = "none";
+        }
+
+        function teachBot() {
+            var newAnswer = document.getElementById("teach-answer").value;
+
+            if (newAnswer.trim() !== "") {
+                fetch("/teach", {
+                    method: "POST",
+                    body: new URLSearchParams({ "new_answer": newAnswer }),
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                    },
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("chat-display").innerHTML += "<div class='bot-message'>Bot: " + data.response + "</div>";
+
+                        // Check if the bot learned a new response
+                        if (data.response === "Thank you! I learned a new response.") {
+                            document.getElementById("chat-display").innerHTML += "<div class='bot-message learned-message'>Bot: " + data.response + "</div>";
+                        }
+
+                        closeTeachModal();
+                    });
+            }
         }
     </script>
 </body>
