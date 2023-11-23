@@ -9,6 +9,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/circuits-blue-red-gradient-digital-background_23-2148821701.jpg?w=826&t=st=1700765776~exp=1700766376~hmac=8f363839ee13edb616944c3b9431ae577fa72a6a2e8901c839c4206be974ee52");
+  background-position: center;
+  background-size: cover;
 }
 
 #chat-container {
@@ -99,4 +102,14 @@ button:hover {
 
 h1 {
   color: white;
+}
+
+.logo {
+  width: 129px;
+  height: 136px;
+  background-color: red;
+  border-radius: 50%;
+  background-image: url("https://nitkkr.ac.in/wp-content/uploads/2021/09/logoforppt.png");
+  background-position: center;
+  background-size: cover;
 }
