@@ -1,4 +1,5 @@
 # chatbot.py
+
 from flask import Flask, render_template, request, jsonify
 from difflib import get_close_matches
 import json
@@ -18,7 +19,7 @@ def save_knowledge_base(file_path: str, data: dict):
 
 
 def find_best_match(user_question: str, questions: list[str]) -> str | None:
-    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.6)
+    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.5)
     return matches[0] if matches else None
 
 
@@ -51,7 +52,7 @@ def ask():
 
     if best_match:
         answer = get_answer_for_question(best_match, knowledge_base)
-        last_question = user_input  # Update last question for teaching
+        last_question = best_match  # Update last question for teaching
         return jsonify({"response": answer})
     else:
         return jsonify({"response": "I don't know the answer. Can you teach me?"})

@@ -54,10 +54,10 @@
     },
     {
       "question": "What are the extracurricular activities available at NIT Kurukshetra?",
-      "answer": "NIT Kurukshetra offers a wide range of extracurricular activities, including clubs for music, dance, literature, and technical interests. Students have the opportunity to showcase their talents and pursue their passions outside the academic curriculum."
+      "answer": "NIT Kurukshetra offers a wide range of extracurricular activities, including clubs for music, dance, literature, and technical interests. Students have the opportunity to showcase their talents and pursue their passions outside the academic curriculum. There are various types of INTER NIT competitions that are held throughout the year."
     },
     {
-      "question": "Tell me about the annual technical fest at NIT Kurukshetra.",
+      "question": "Tell me about the annual technical fest at NIT Kurukshetra./ Tell me about confluence",
       "answer": "The annual technical fest at NIT Kurukshetra is called 'Confluence.' It is a platform for students to showcase their technical skills and innovations through competitions, workshops, and technical exhibitions."
     },
     {
@@ -130,7 +130,7 @@
     },
     {
       "question": "Are Canteen/Eatries available inside hostels?",
-      "answer": "Certain Hostels have canteen near them. H1,H2,H3,H4,H4,H5,H6 have Walk in whereas H7,H8,H9,H10 and H11 have H9 canteem amd maggie hotspot."
+      "answer": "Certain Hostels have canteen near them. H1,H2,H3,H4,H4,H5,H6 have Walk in whereas H7,H8,H9,H10 and H11 have H9 canteen amd maggie hotspot. There timings are subjective. You can visit them for more information."
     },
     {
       "question": "What is Girls in-timing?",
@@ -138,7 +138,7 @@
     },
     {
       "question": "Is there any form of ragging?",
-      "answer": "Ragging is strictly prohibited on campus. Any students found to be involved in ragging are subject to severe disciplinary action."
+      "answer": "Ragging is strictly prohibited on campus. Any students found to be involved in ragging are subject to severe disciplinary action. Say NO! to ragging."
     },
     {
       "question": "How far are the hostels from the academic building/lecture halls?",
@@ -161,8 +161,112 @@
       "answer": "There are various branches in Btech - Mechanical, Electrical, Civil, Computer Science, Information technology, IOT, Electronics and Communication. "
     },
     {
-      "question": "How’s the food quality in mess?",
+      "question": "How is the food quality in mess?",
       "answer": "The quality of food in the mess of NIT Kurukshetra is generally good, but it can vary depending on the day and the specific dish. The mess serves a variety of vegetarian dishes, and the food is typically fresh and nutritious."
+    },
+    {
+      "question": "Who designed you?",
+      "answer": "Under esteemed guidance of Dr Rajiv Verma sir, Mehul Chaturvedi worked on me."
+    },
+    {
+      "question": "What are the eligibility criteria for admission to NIT Kurukshetra",
+      "answer": "To be eligible for admission to NIT Kurukshetra, you must have secured a valid JEE Main rank and have passed the 10+2 examination or an equivalent examination with at least 75% marks.?"
+    },
+    {
+      "question": "What is the fee structure for NIT Kurukshetra",
+      "answer": "The fee structure for NIT Kurukshetra varies depending on the course and the student's domicile. However, the annual tuition fee is typically around INR 150,000?"
+    },
+    {
+      "question": "Does NIT Kurukshetra offer scholarships and financial aid",
+      "answer": "Yes, NIT Kurukshetra offers a variety of scholarships and financial aid options to eligible students. These options include merit-based scholarships, need-based scholarships, and scholarships for students from reserved categories.?"
+    },
+    {
+      "question": "What is the teaching methodology at NIT Kurukshetra?",
+      "answer": "NIT Kurukshetra employs a variety of teaching methodologies, including lectures, tutorials, laboratory work, and project work. The emphasis is on providing students with a hands-on learning experience."
+    },
+    {
+      "question": "What is the future outlook for NIT Kurukshetra?",
+      "answer": "NIT Kurukshetra is committed to providing its students with a world-class education and preparing them for success in the global marketplace. The institute is constantly investing in its infrastructure and faculty, and is expanding its research and development activities. As a result, NIT Kurukshetra is well-positioned for continued growth and success in the years to come."
+    },
+    {
+      "question": "How does NIT Kurukshetra compare to other top engineering institutes in India?",
+      "answer": "NIT Kurukshetra is comparable to other top engineering institutes in India in terms of academic rigor, placement record, and faculty quality. However, NIT Kurukshetra has a few unique advantages, including its strong focus on research and innovation, its vibrant campus life, and its commitment to sustainability and social responsibility.?"
+    },
+    {
+      "question": "How does NIT Kurukshetra prepare students for the challenges of the 4th Industrial Revolution?",
+      "answer": "NIT Kurukshetra is preparing its students for the challenges of the 4th Industrial Revolution by providing them with a strong foundation in engineering, technology, and problem-solving skills. The institute also offers courses and workshops on emerging technologies such as artificial intelligence, machine learning, and blockchain. In addition, NIT Kurukshetra encourages students to participate in extracurricular activities and internships that will help them develop the skills they need to succeed in the 21st-century workforce.?"
+    },
+    {
+      "question": "What are some of the initiatives taken by NIT Kurukshetra to promote mental health and well-being among students?",
+      "answer": "NIT Kurukshetra recognizes the importance of mental health and well-being, and the institute has taken a number of initiatives to promote it among students. Colours is a mental health club that helps students to deal with stress that they may encounter while their college life with their personal life or professional life. "
+    },
+    {
+      "question": "What all do you offer as a chat-bot? / What are your features? / What can you do for me?",
+      "answer": "Hey There! I can help you with any sort of questions that you may have related to your college. Though, because of security reasons I cannot provide you with any sensitive information. I am here to make your college life easy. Try me! "
+    },
+    {
+      "question": "How are you doing?",
+      "answer": "I am doing wonderfully fine and helping cool and techy students like you to make your college life easy. How about you?"
+    },
+    {
+      "question": "I am doing fine. Thanks for asking?",
+      "answer": "Oh Come On! It is all my pleasure to be interacting with you."
+    },
+    {
+      "question": "What / How is NIT Kurukshetra?",
+      "answer": "NIT Kurukshetra, or the National Institute of Technology Kurukshetra, is a premier engineering institution in India established in 1963. It is one of the 31 NITs in the country."
+    },
+    {
+      "question": "Where is NIT Kurukshetra located?",
+      "answer": "NIT Kurukshetra is located in Kurukshetra, a historic city in the state of Haryana, India. The campus is 5 kms from the Kurukshetra Railway station and close to the Kurukshetra University."
+    },
+    {
+      "question": "What courses does NIT Kurukshetra offer?",
+      "answer": "NIT Kurukshetra offers undergraduate, postgraduate, and doctoral programs in various engineering and technology disciplines, including Computer Science, Mechanical Engineering, Electrical Engineering, and more."
+    },
+    {
+      "question": "Is NIT Kurukshetra accredited?",
+      "answer": "Yes, NIT Kurukshetra is accredited by the National Board of Accreditation (NBA) and is recognized as an Institute of National Importance by the Government of India."
+    },
+    {
+      "question": "How is the campus life at NIT Kurukshetra?",
+      "answer": "The campus life at NIT Kurukshetra is vibrant, with a range of cultural, technical, and sports events throughout the year. Various clubs and societies contribute to a holistic learning experience."
+    },
+    {
+      "question": "What / How is the placement scenario at NIT Kurukshetra?",
+      "answer": "NIT Kurukshetra has a strong placement record, with many students securing job offers from top-notch companies in India and abroad. The Training and Placement Cell actively facilitates the placement process."
+    },
+    {
+      "question": "Are there research opportunities at NIT Kurukshetra?",
+      "answer": "Yes, NIT Kurukshetra encourages research and innovation. The institute has research centers and offers opportunities for students and faculty to engage in cutting-edge research projects."
+    },
+    {
+      "question": "Can you tell me about any notable alumni from NIT Kurukshetra?",
+      "answer": "NIT Kurukshetra has produced many successful alumni who have made significant contributions in various fields. Some notable alumni include Arun Singhal (IAS), Vishal Sikka (Former CEO of Infosys), and more."
+    },
+    {
+      "question": "How can I apply for admission to NIT Kurukshetra?",
+      "answer": "Admissions to NIT Kurukshetra for undergraduate programs are based on JEE Main scores, while postgraduate admissions are through GATE. The institute follows a specific admission process, and details are available on the official website."
+    },
+    {
+      "question": "What facilities are available on the NIT Kurukshetra campus?",
+      "answer": "NIT Kurukshetra provides state-of-the-art facilities, including modern classrooms, well-equipped laboratories, hostels, sports facilities, and a library, to support academic and extracurricular activities."
+    },
+    {
+      "question": "How is NIT Kurukshetra?",
+      "answer": "One of the few Tier 1 colleges of India: The National Institute of Technology Kurukshetra (NIT Kurukshetra) is a premier technical institution located in the state of Haryana, India. Established in 1963, it is one of the 31 National Institutes of Technology in the country. NIT Kurukshetra is known for its commitment to excellence in engineering and technology education, offering undergraduate, postgraduate, and doctoral programs in various disciplines."
+    },
+    {
+      "question": "yo",
+      "answer": "Hey There!"
+    },
+    {
+      "question": "Hey",
+      "answer": "Hey There!"
+    },
+    {
+      "question": "Thank you for helping me",
+      "answer": "Pleasure is all mine! You can come back and ask me anything else that you would want to know."
     }
   ]
 }
